@@ -1,0 +1,42 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0px 20px;
+  width: 100%;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row { margin-bottom: 20px; width: 100%; }
+
+.col { margin-left: 1.5%; }
+
+.col:first-child { margin-left: 0; }
+
+/* 12 columns for the grid */
+.one { width: 6.95833333333%; }
+.two { width: 15.4166666667%; }
+.three { width: 23.875%; }
+.four { width: 32.3333333333%; }
+.five { width: 40.7916666667%; }
+.six { width: 49.25%; }
+.seven { width: 57.7083333333%; }
+.eight { width: 66.1666666667%; }
+.nine { width: 74.625%; }
+.ten { width: 83.0833333333%; }
+.eleven { width: 91.5416666667%; }
+.twelve { width: 100%; margin-left: 0; }
+
+/* Nicolas Gallagher's micro clearfix */
+.row { *zoom: 1; }
+.row:before, .row:after { content: ""; display: table; }
+.row:after { clear: both; }
+
+img, object, embed { max-width: 100%; height: auto; }
+
+img { -ms-interpolation-mode: bicubic; }
